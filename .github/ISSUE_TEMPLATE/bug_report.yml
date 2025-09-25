@@ -30,7 +30,7 @@ body:
         - Critical
         - Major
         - Trivial
-        - Enchancment
+        - Enhancement
       default: 0
     validations:
       required: true
@@ -56,7 +56,7 @@ body:
         - Functional
         - UI
         - Localization
-        - Perfomance
+        - Performance
         - Security
         - Other
       default: 0
@@ -70,3 +70,4 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+      default: false
