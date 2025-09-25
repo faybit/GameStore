@@ -20,6 +20,15 @@ body:
       placeholder: Location of the bug
     validations:
       required: false
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions
+      description: Suggest your solution to the problem
+      placeholder: Write a correction here
+      value: "correction"
+    validations:
+      required: false
   - type: dropdown
     id: seriousness
     attributes:
