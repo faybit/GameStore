@@ -4,6 +4,14 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
   - type: textarea
+    id: playback-steps
+    attributes:
+      label: playback steps
+      description: How do you reproduce the error?
+      placeholder: Tell us your steps
+    validations:
+      required: true
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
