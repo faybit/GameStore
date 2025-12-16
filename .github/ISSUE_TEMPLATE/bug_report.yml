@@ -12,6 +12,20 @@ body:
     validations:
       required: true
   - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected result
+      description: What did you want to see?
+    validations:
+      required: true
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual result
+      description: What did you see?
+    validations:
+      required: true
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
