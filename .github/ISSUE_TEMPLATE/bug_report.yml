@@ -96,7 +96,7 @@ body:
       label: Screenshots
       description: You can attach additional photos.
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
